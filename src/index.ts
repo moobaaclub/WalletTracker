@@ -25,7 +25,7 @@ import { connection, logger, SUPABASE_KEY, SUPABASE_URL } from './settings'
 import { NFTMetaType } from './types'
 import { getMetaData } from './utils'
 
-const wallets: string[] = [q6hdrAdqpTJd4bB8zcTGm1AvBFe9tc6g4vdA14YnnGt,A4MEHJsTK6wDhaAXprm42X18CYbpVxtut74fZNESSWKr]
+const wallets: string[] = []
 export const supabase = createClient(SUPABASE_URL ?? '', SUPABASE_KEY ?? '')
 export const coingeckoClient = new CoinGeckoClient({
     autoRetry: true,
